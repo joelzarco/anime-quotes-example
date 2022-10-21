@@ -8,13 +8,13 @@
 import SwiftUI
 
 struct ContentView: View {
-    
-    let quotes = Quote.SampleQuotes
+    @StateObject private var vm = ViewModel(testMode: false)
+//    let quotes = Quote.SampleQuotes
     
     var body: some View {
         NavigationView{
             List{
-                ForEach(quotes){q in
+                ForEach(vm.quotes){q in
                     ItemView(quote: q)
                         .padding(4)
                 }
@@ -22,6 +22,7 @@ struct ContentView: View {
             .navigationTitle("Anime Quotes")
             .refreshable {
                 // still needs to implement api call
+                vm.makeApiRequest()
             }
         }
     }

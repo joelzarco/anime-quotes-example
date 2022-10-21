@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		968A2FD32900B7F7001E45FA /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968A2FD22900B7F7001E45FA /* ApiManager.swift */; };
+		968A2FD52900BAC2001E45FA /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968A2FD42900BAC2001E45FA /* ViewModel.swift */; };
 		96F9B6DB28FF40C000E1ABB4 /* AnimeQuotesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F9B6DA28FF40C000E1ABB4 /* AnimeQuotesApp.swift */; };
 		96F9B6DD28FF40C000E1ABB4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F9B6DC28FF40C000E1ABB4 /* ContentView.swift */; };
 		96F9B6DF28FF40C100E1ABB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96F9B6DE28FF40C100E1ABB4 /* Assets.xcassets */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		968A2FD22900B7F7001E45FA /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		968A2FD42900BAC2001E45FA /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		96F9B6D728FF40C000E1ABB4 /* AnimeQuotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimeQuotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96F9B6DA28FF40C000E1ABB4 /* AnimeQuotesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeQuotesApp.swift; sourceTree = "<group>"; };
 		96F9B6DC28FF40C000E1ABB4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,10 +65,12 @@
 			children = (
 				96F9B6DA28FF40C000E1ABB4 /* AnimeQuotesApp.swift */,
 				96F9B6DC28FF40C000E1ABB4 /* ContentView.swift */,
+				968A2FD42900BAC2001E45FA /* ViewModel.swift */,
 				96F9B6EE28FF4C9400E1ABB4 /* ItemView.swift */,
 				96F9B6E828FF43FF00E1ABB4 /* quotes.json */,
 				96F9B6EA28FF446500E1ABB4 /* Model.swift */,
 				96F9B6EC28FF45BC00E1ABB4 /* Extensions.swift */,
+				968A2FD22900B7F7001E45FA /* ApiManager.swift */,
 				96F9B6DE28FF40C100E1ABB4 /* Assets.xcassets */,
 				96F9B6E028FF40C100E1ABB4 /* Preview Content */,
 			);
@@ -154,7 +160,9 @@
 				96F9B6EB28FF446500E1ABB4 /* Model.swift in Sources */,
 				96F9B6DB28FF40C000E1ABB4 /* AnimeQuotesApp.swift in Sources */,
 				96F9B6EF28FF4C9400E1ABB4 /* ItemView.swift in Sources */,
+				968A2FD32900B7F7001E45FA /* ApiManager.swift in Sources */,
 				96F9B6ED28FF45BC00E1ABB4 /* Extensions.swift in Sources */,
+				968A2FD52900BAC2001E45FA /* ViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
